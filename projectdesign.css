@@ -1,0 +1,151 @@
+/* outer box*/
+*{margin:0;padding:0}
+body{
+	//box-sizing: border-box;
+	background: url("stars.jpg")no-repeat center center/cover;
+	backdrop-filter: blur(3px);
+    color: white;
+}
+
+.main-container{
+	width: 100%;
+	//background: #B5BAFF;
+	//border: 1px solid whitesmoke;
+	margin: auto;
+}
+
+header{
+	width: 100%;
+	//background: #558575;
+	height: 200px;
+	font-size: x-large;
+	font-family: serif;
+	padding-top: 30px;
+	color: white;
+}
+
+
+.wrapper{
+	width: 100%;
+	display: flex;
+}
+
+.list_nav{
+	width: 50%;
+	margin: 0 auto;
+	justify-content: center;
+	position: relative; 
+	padding: 10px 10px; 
+	background: whitesmoke; 
+	border-radius: 55px; 
+	backdrop-filter: blur(15px); 
+	box-shadow: 0 5px 10px black; 
+	border: 0.5px solid #ccc; 
+	list-style: none;
+	display: flex;
+	gap: 15px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+}
+
+section{
+	flex: 80;
+	//background: #9FA1FF;
+	min-height: 600px;
+	padding-top: 40px;
+	color: black;
+}
+
+header,section{
+	text-align: center;
+}
+
+
+form{
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+	background-color: whitesmoke;
+	box-shadow: 0 5px 10px black;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+fieldset{
+	width: 100%;
+	border: 2px solid gray;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+legend{
+	font-size: 18pt;
+	color: #3E4E59;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+img{
+	height: 390px;
+	width: 300px;
+	float: left;
+	border: 4px outset whitesmoke;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	position: relative;
+	top:5p;x
+
+} 
+.other_pic{
+	height: 290px;
+	width: 200px;
+	float: right;
+	border: 4px outset whitesmoke;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	position: relative;
+	top:5px;
+
+}
+
+.legend_para{
+	font-size: 20pt;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.wow_me{
+	text-align: left;
+	font-size: 25px;
+}
+
+textarea{
+	min-height:  100px;
+	resize: vertical;
+}
+
+.classwork-container {
+  display: flex;
+  flex-direction: row;      
+  justify-content: center;  
+  gap: 40px;                
+  padding: 20px;
+  padding-left: auto;
+}
+
+.classwork-item {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  max-width: 320px;        
+}
+
+.another{
+	height: 450px;
+	width: 430px;
+}
